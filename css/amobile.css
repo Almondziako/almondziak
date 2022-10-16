@@ -1,0 +1,87 @@
+@media (max-width: 1080px) {
+    .nav{
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+    }
+    .avatar > img{
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        border: 2px solid rgb(141, 36, 226);
+    }
+    .almondziak{
+        color: aliceblue;
+        font-size: large;
+        font-weight: bold;
+    }
+    .navfooter{
+        margin: auto;
+        width: 94%;
+        border: 2px solid rgb(141, 36, 226);
+        border-radius: 10px;
+    }
+    .nav > ul > li > a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: aliceblue;
+        padding: 10px;
+        border: 2px solid rgb(141, 36, 226);
+        border-radius: 12px;
+        background-color: rgba(140, 36, 226, 0.226); 
+    }
+
+
+
+
+
+
+    .bannertop{
+        display: flex;
+        margin: auto;
+        margin-top: 20vh;
+    }
+    .bannertop > img, .bannertop > h3{
+        display: grid;
+        place-items: center;
+        margin: auto;
+        height: 100px;
+        border-radius: 20px;
+    }
+
+
+
+
+
+
+    .informacje{
+        /* display: grid;
+        place-items: center; */
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .inforola{
+        margin-top: 20vh;
+        text-transform: capitalize;
+        display: flex;
+        gap: 20px;
+    }
+    .rola, .kontakt{
+        width: auto;
+    }
+    .logo > img, .discordpfp > img{
+        border: 3px solid rgb(141, 36, 226);
+        width: 100px;
+        border-radius: 100px;
+    }
+    .rola > p{
+        text-transform: none;
+        font-size: larger;
+        margin-top: 20px;
+    }
+}

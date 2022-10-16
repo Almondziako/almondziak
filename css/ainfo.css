@@ -1,0 +1,51 @@
+.informacje{
+    display: grid;
+    place-items: center;
+}
+.inforola{
+    margin-top: 20vh;
+    text-transform: capitalize;
+    display: flex;
+    gap: 40px;
+}
+.rola{
+    width: 400px;
+}
+.logo > img{
+    border: 3px solid rgb(141, 36, 226);
+    width: 300px;
+    border-radius: 300px;
+}
+.rola > p{
+    text-transform: none;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+
+.infokontakt{
+    margin-top: 20vh;
+    text-transform: capitalize;
+    display: flex;
+    gap: 40px;
+}
+.kontakt{
+    width: 400px;
+}
+.discordpfp > img{
+    border: 3px solid rgb(141, 36, 226);
+    width: 300px;
+    border-radius: 300px;
+}
+.discordtag > p{
+    text-transform: none;
+    font-size: larger;
+    margin-top: 20px;
+}
+.discordtag{
+    display: flex;
+    align-items: flex-end;
+}
+.discordtag > img{
+    margin-right: 7px;
+}
